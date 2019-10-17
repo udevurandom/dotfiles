@@ -13,17 +13,19 @@
   pf = push --force-with-lease
   st = status
 [core]
-  excludesfile = ~/.gitignore
-  autocrlf = input
-[merge]
-  ff = only
+	excludesfile = /Users/darrenarmstrong/.gitignore_global
+	autocrlf = input
 [commit]
-  template = ~/.gitmessage
+	template = ~/.gitmessage
 [fetch]
   prune = true
+  prune-tags = true
 [rebase]
   autosquash = true
 [include]
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+[user]
+	name = Darren Armstrong
+	email = darren.armstrong0@gmail.com
