@@ -1,0 +1,16 @@
+[alias]
+	co = checkout
+	br = branch
+  cm = commit
+
+[push]
+  autoSetupRemote = true
+
+[includeIf "gitdir:~/work/"]
+        path = ~/work/gitconfig-work
+[includeIf "gitdir:~/dotfiles/"]
+        path = ~/personal/gitconfig-personal
+[includeIf "gitdir:~/personal/"]
+        path = ~/personal/gitconfig-personal
+[includeIf "gitdir:~/.local/share/gopass/stores/personal"]
+        path = ~/personal/gitconfig-personal

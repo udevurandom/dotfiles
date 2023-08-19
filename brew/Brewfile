@@ -1,0 +1,36 @@
+brew install nvim
+brew install vscode azcli
+brew install azurecli
+brew install azure-cli
+brew install git
+brew install github
+brew install github-cli
+brew install gh-cli
+brew install gh
+brew install nosqlbooster-for-mongodb
+brew install dbeaver-community
+brew install volta
+brew install nvm
+
+brew install lazygit
+brew install nnn
+brew install fzf
+
+brew install --cask microsoft-remote-desktop
+brew install --cask postman
+
+grep
+tree
+jq
+gopass
+kubernetes-cli
+
+-- visidata
+libxml2
+libxslt
+brew install saulpw/vd/visidata
+
+mongodb-compass
+
+brew install miller # CSV converter
+
